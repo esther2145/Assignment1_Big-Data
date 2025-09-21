@@ -1,5 +1,6 @@
 # ESTHER KICA
 # B27293
+# M24B38/010
 # ASSIGNMENT 1 DESCRIPTIVE ANALTICS
 
 
@@ -220,4 +221,5 @@ mean_orig <- mean(df$`Original Principal Amount (US$)`, na.rm = TRUE)#The mean o
 median_orig <- median(df$`Original Principal Amount (US$)`, na.rm = TRUE)#the median is 29,000,000.00 indicating a right-skewed distribution (a small number of very large loans raise the mean above the median).
 cat("Total original principal:", scales::comma(total_original), "\n")
 cat("Mean:", scales::comma(mean_orig), "Median:", scales::comma(median_orig), "\n")
+
 
